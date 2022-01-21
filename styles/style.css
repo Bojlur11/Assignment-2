@@ -1,0 +1,116 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/*header*/
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    border-bottom: #e8491d 3px solid;
+    
+}
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header ul li{
+    float: left;
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+header #branding{
+    float: left;
+}
+header #branding h2{
+    margin: 0;
+    padding-bottom: 15px;
+}
+header nav{
+    float: right;
+}
+/*showcase*/
+#showcase{
+    min-height: 400px;
+    margin-top: 30px;
+}
+#showcase .half-width{
+    float: left;
+    width: 60%;
+}
+h1{
+    font-size: 50px;
+    color: rgb(56, 53, 53);
+}
+#showcase p{
+    font-size: 20px;
+    color: rgb(56, 53, 53);
+}
+.button{
+    text-decoration: none;
+    background-color: darkslateblue;
+    color: floralwhite;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+/*popular collection*/
+
+.blog-head {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.collection{
+    box-shadow:4px solid darkgrey;
+}
+.collection-info h3 {
+   font-size: 30px;
+   line-height: .5em;
+}
+.collection-info p{
+    line-height: .5em;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+}
+
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: rgb(2, 2, 34);
+    color: #ffffff;
+}
+.social-icon i{
+    padding: 0 20px 0 20px;
+}
